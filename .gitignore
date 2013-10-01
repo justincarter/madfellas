@@ -1,6 +1,7 @@
 blog/
 cache/
 farcry/core/
+WEB-INF/
 madfellas.sublime-project
 madfellas.sublime-workspace
 web.config
