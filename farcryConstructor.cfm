@@ -19,7 +19,7 @@
 <cfset THIS.dsn = "madfellas" /> 
 <cfset THIS.dbType = "mysql" /> 
 <cfset THIS.dbOwner = "" /> 
-<cfset THIS.plugins = "" /> 
+<cfset THIS.plugins = "blogfc" /> 
 
 <!--- 
 THE VIRTUAL WEBSERVER PROJECT FOLDER
