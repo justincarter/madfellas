@@ -47,7 +47,13 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 0.5em;
 }
 
-h1 { font-size: ;}
+h1 { font-size: 240%; }
+h2 { font-size: 180%; }
+h3 { font-size: 160%; }
+h4 { font-size: 140%; }
+h5 { font-size: 120%; }
+h6 { font-size: 100%; }
+
 
 header {
 	background: #141414 url(images/header-bg.jpg) 0 0 no-repeat;
@@ -55,8 +61,8 @@ header {
 }
 header .mask {
 	background: rgba(33,33,33,0.7);
-	padding: 0 0 32px 0;
-	border-bottom: 4px solid #252525;
+	padding: 0 0 2em 0;
+	border-bottom: 0.25em solid #252525;
 }
 
 header h1 {
@@ -66,7 +72,7 @@ header h1 {
 	font-size: 500%;
 	color: white;
 	text-transform: lowercase;
-	padding: 15px 1em 0 1em;
+	padding: 0.2em 1em 0 1em;
 	color: #66ccff;
 	text-shadow: 0 0 4px #000;
 }
@@ -128,7 +134,7 @@ h1 a:hover {
 
 
 .main {
-	padding-top: 15px;
+	padding-top: 1em;
 }
 
 
@@ -163,14 +169,14 @@ h1 a:hover {
 }
 
 .blog-comments {
-	margin-top: 60px;
+	margin-top: 4em;
 }
 
 
 section {
-	padding-bottom: 30px;
+	padding-bottom: 2em;
 	border-bottom: 2px dashed #555;
-	margin-bottom: 30px;
+	margin-bottom: 2em;
 }
 
 pre {
@@ -183,8 +189,8 @@ pre {
 
 
 footer {
-	margin: 40px 0 0 0;
-	padding: 30px 0;
+	margin: 2.4em 0 0 0;
+	padding: 2em 0;
 	background: rgba(51,102,153,0.6);
 	color: rgba(255,255,255,0.5);
 }
@@ -197,7 +203,17 @@ footer a:hover {
 
 
 @media (max-width: 768px) {
+	body {
+		font-size: 14px;
+	}
 	header h1 {
 		font-size: 300%;
 	}
+	h1 { font-size: 200%; }
+	h2 { font-size: 160%; }
+	h3 { font-size: 140%; }
+	h4 { font-size: 130%; }
+	h5 { font-size: 120%; }
+	h6 { font-size: 100%; }
+
 }
