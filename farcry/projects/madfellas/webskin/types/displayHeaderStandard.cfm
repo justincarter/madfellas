@@ -22,7 +22,6 @@
 
 	<!--[if lt IE 9]><script src="/js/html5shiv.js"></script><![endif]-->
 
-	<link href="//fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet" type="text/css">
 	<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="/css/style.css" rel="stylesheet" type="text/css">
 	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
