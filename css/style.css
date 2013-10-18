@@ -216,4 +216,12 @@ footer a:hover {
 	h5 { font-size: 120%; }
 	h6 { font-size: 100%; }
 
+	.navbar {
+		min-height: 0;
+	}
+	.navbar-nav {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
 }
