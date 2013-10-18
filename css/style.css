@@ -34,7 +34,7 @@
 
 body {
 	font-family: 'Roboto', Arial, Helvetica, sans-serif;
-	background: #232326;
+	background: #2d2d2d;
 	color: #eeeeee;
 	font-size: 15px;
 }
@@ -42,26 +42,33 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto', Arial, Helvetica, sans-serif;
-	color: gold;
+	color: #e5b90c;
 	font-weight: 400;
 	margin-bottom: 0.5em;
 }
 
+h1 { font-size: ;}
+
 header {
-	background: #1b1b1e;
+	background: #141414 url(images/header-bg.jpg) 0 0 no-repeat;
+	background-size: 100% auto;
+}
+header .mask {
+	background: rgba(33,33,33,0.7);
 	padding: 0 0 32px 0;
-	margin: 0 0 20px 0;
+	border-bottom: 4px solid #252525;
 }
 
 header h1 {
 	text-align: center;
 	margin: 0;
 	font-weight: 100;
-	font-size: 80px;
+	font-size: 500%;
 	color: white;
 	text-transform: lowercase;
 	padding: 15px 1em 0 1em;
 	color: #66ccff;
+	text-shadow: 0 0 4px #000;
 }
 
 header h1 small {
@@ -76,37 +83,31 @@ header h1 small span {
 	font-weight: 100;
 	font-size: 30%;
 	line-height: 1;
-	color: #99999f;
+	color: #888;
 	white-space: nowrap;
 }
 
 
 .navbar-inverse {
 	border: none;
-	background: #1b1b1e;
-	color: #99999f;
+	background: rgba(0,0,0,0.4);
 	-webkit-border-radius: 0; 
 	-moz-border-radius: 0; 
 	border-radius: 0; 
 
 }
 .navbar-inverse .navbar-nav li a {
+	font-size: 1em;
 	color: #ddd;
-	background: rgba(51,102,153,0.1);
-	/*border-right: 1px solid rgba(0,0,0,0.2);*/
-	margin-top: 10px;
-	margin-right: 1px;
-	padding: 9px 18px 11px 18px;
 }
 .navbar-inverse .navbar-nav li a:hover {
-	color: #eee;
-	background: rgba(51,102,153,0.2);
-	/*border-right: 1px solid rgba(0,0,0,0.2);*/
+	color: #fff;
+	background: #333;
 }
 
 .navbar-inverse .navbar-nav>li.active>a,
 .navbar-inverse .navbar-nav>li.active>a:hover {
-	background: #1b1b1e;
+	background: #333;
 }
 
 
@@ -117,23 +118,28 @@ a:hover {
 }
 
 h1 a {
-	color: gold;
+	color: #e5b90c;
 	text-decoration: none;
 }
 h1 a:hover {
-	color: gold;
+	color: #e5b90c;
 	text-decoration: underline;
+}
+
+
+.main {
+	padding-top: 15px;
 }
 
 
 .content {
 	line-height: 1.6;
 	color: #bbb;
+	overflow: hidden;
 }
 .content p {
 	margin-bottom: 1.5em;
 }
-
 .content strong {
 	color: #ddd;
 }
@@ -163,13 +169,13 @@ h1 a:hover {
 
 section {
 	padding-bottom: 30px;
-	border-bottom: 4px dashed #555;
+	border-bottom: 2px dashed #555;
 	margin-bottom: 30px;
 }
 
 pre {
-	border: 1px solid #333;
-	background: #1a1a1a;
+	border: 1px solid #3d3d3d;
+	background: #212121;
 	color: #ddd;
 	margin: 1em 0;
 }
@@ -180,7 +186,7 @@ footer {
 	margin: 40px 0 0 0;
 	padding: 30px 0;
 	background: rgba(51,102,153,0.6);
-	color: #ccc;
+	color: rgba(255,255,255,0.5);
 }
 
 
@@ -192,6 +198,6 @@ footer a:hover {
 
 @media (max-width: 768px) {
 	header h1 {
-		font-size: 40px;
+		font-size: 300%;
 	}
 }

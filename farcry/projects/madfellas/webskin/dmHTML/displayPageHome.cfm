@@ -10,7 +10,7 @@
 <cfoutput>
 
 <h2>Xbox Live Gamercard</h2>
-<iframe src="http://gamercard.xbox.com/Noleaf.card" scrolling="no" frameBorder="0" height="140" width="204">Noleaf</iframe>
+<iframe src="http://gamercard.xbox.com/Noleaf.card" scrolling="no" frameBorder="0" height="136" width="200">Noleaf</iframe>
 
 </cfoutput>
 

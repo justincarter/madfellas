@@ -32,24 +32,24 @@
 <body>
 
 <header>
-
-	<nav class="navbar navbar-inverse" role="navigation">
-		<div class="container">
-			<div class="col-md-10 col-md-push-1 col-sm-12 col-xs-12">
-				<ul class="nav navbar-nav ">
-					<li style="float:left;"><a href="/">Home</a></li>
-					<li style="float:left;"><a href="/blog">Blog</a></li>
-					<li style="float:left;"><a href="/about">About</a></li>
-				</ul>
+	<div class="mask">
+		<nav class="navbar navbar-inverse" role="navigation">
+			<div class="container">
+				<div class="col-md-10 col-md-push-1 col-sm-12 col-xs-12">
+					<ul class="nav navbar-nav ">
+						<li style="float:left;"><a href="/">Home</a></li>
+						<li style="float:left;"><a href="/blog">Blog</a></li>
+						<li style="float:left;"><a href="/about">About</a></li>
+					</ul>
+				</div>
 			</div>
-		</div>
-	</nav>
-
-	<h1><small><span>Justin Carter's</span></small> Madfellas.com</h1>
+		</nav>
+		<h1><small><span>Justin Carter's</span></small> Madfellas.com</h1>
+	</div>
 </header>
 
 
-<div class="container">
+<div class="main container">
 	<div class="col-md-10 col-md-push-1 col-sm-12 col-xs-12">
 </cfoutput>
 
