@@ -38,6 +38,7 @@
 </head>
 
 <body>
+<div class="wrap">
 
 <header>
 	<div class="mask">

@@ -31,6 +31,7 @@
 
 }
 
+html, body { height: 100%; }
 
 body {
 	font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -54,6 +55,11 @@ h4 { font-size: 140%; }
 h5 { font-size: 120%; }
 h6 { font-size: 100%; }
 
+
+.wrap {
+	position: relative;
+	min-height: 100%;
+}
 
 header {
 	background: #141414 url(images/header-bg.jpg) 0 0 no-repeat;
@@ -139,6 +145,7 @@ h1 a:hover {
 
 .main {
 	padding-top: 0.5em;
+	padding-bottom: 11em;
 }
 
 
@@ -194,6 +201,9 @@ pre {
 
 
 footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 	margin: 2.4em 0 0 0;
 	padding: 2em 0;
 	background: #2f4e6d;
