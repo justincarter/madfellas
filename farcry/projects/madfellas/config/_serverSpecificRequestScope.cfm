@@ -16,20 +16,6 @@
     You should have received a copy of the GNU Lesser General Public License
     along with FarCry.  If not, see <http://www.gnu.org/licenses/>.
 --->
-<!--- 
-|| DESCRIPTION || 
-$Description: 	
-	This file is run after /core/tags/farcry/_requestScope.cfm
-	It enables us to both override the default farcry request scope variables and also add our own
-	
-	// Developer Mode
-	Turning on developer mode will reinitialise the application every page request.  Useful
-	if you are constantly changing application metadata, but disastrous on performance.
-$
-
-|| DEVELOPER ||
-$Developer: Mat Bryant (m.bryant@daemon.com.au)$
---->
 	
 
 	
