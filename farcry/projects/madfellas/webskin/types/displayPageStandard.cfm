@@ -7,11 +7,7 @@
 
 <skin:view objectid="#stobj.objectid#" typename="#stobj.typename#" webskin="displayHeaderStandard">
 
-<cfoutput>
-
-	<skin:view typename="#stobj.typename#" objectid="#stobj.objectid#" webskin="#url.bodyView#" />
-
-</cfoutput>
+<skin:view typename="#stobj.typename#" objectid="#stobj.objectid#" webskin="#url.bodyView#" />
 
 <skin:view objectid="#stobj.objectid#" typename="#stobj.typename#" webskin="displayFooterStandard">
 

@@ -57,7 +57,6 @@
 	</div>
 </header>
 
-
 <div class="main container">
 	<div class="col-md-10 col-md-push-1 col-sm-12 col-xs-12">
 </cfoutput>
