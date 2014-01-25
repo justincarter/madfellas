@@ -8,7 +8,6 @@
 <cfparam name="stParam.title" default="#stobj.label# - #application.fapi.getConfig("general", "sitetitle")#">
 
 
-<cfcontent reset="true">
 <cfoutput><!doctype html>
 <html lang="en">
 
