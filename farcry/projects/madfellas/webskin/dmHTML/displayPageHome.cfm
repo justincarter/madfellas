@@ -5,7 +5,7 @@
 <cfimport taglib="/farcry/core/tags/webskin" prefix="skin" />
 
 
-<skin:view objectid="#stobj.objectid#" typename="#stobj.typename#" webskin="displayHeaderStandard">
+<skin:view stObject="#stObj#" webskin="displayHeaderStandard">
 
 <cfoutput>
 
@@ -14,7 +14,7 @@
 
 </cfoutput>
 
-<skin:view objectid="#stobj.objectid#" typename="#stobj.typename#" webskin="displayFooterStandard">
+<skin:view stObject="#stObj#" webskin="displayFooterStandard">
 
 	
 <cfsetting enablecfoutputonly="false">
