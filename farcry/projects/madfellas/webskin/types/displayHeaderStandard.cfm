@@ -5,19 +5,18 @@
 <cfimport taglib="/farcry/core/tags/webskin" prefix="skin">
 
 <!--- params --->
-<cfparam name="stParam.title" default="#stobj.label# - #application.fapi.getConfig("general", "sitetitle")#">
+<cfparam name="stParam.title" default="#application.fc.lib.seo.getTitle()#">
+<cfparam name="stParam.description" default="#application.fc.lib.seo.getDescription()#">
 
 
-<cfoutput><!doctype html>
+<cfoutput><!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="utf-8">
 
-	<title>#stParam.title#</title>
+	<title>#stParam.title# - #application.fapi.getConfig("general", "sitetitle")#</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!---<meta name="description" content="">--->
-	<!---<meta name="author" content="">--->
+	<meta name="description" content="#application.fc.lib.esapi.encodeForHTMLAttribute(stParam.description)#">
 
 	<!--[if lt IE 9]><script src="/js/html5shiv.js"></script><![endif]-->
 
