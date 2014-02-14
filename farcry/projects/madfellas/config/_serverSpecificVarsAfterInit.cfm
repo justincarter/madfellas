@@ -20,5 +20,7 @@
 <!--- THIS WILL BE INCLUDED AFTER THE FARCRY INIT HAS BEEN RUN BUT ONLY ON APPLICATION INITIALISATION. --->
 
 
+<cfset application.fapi.setConfig("general", "webtopLogoPath", "/wsimages/madfellas-webtop-logo.png", true)>
+
 
 <cfsetting enablecfoutputonly="false">
