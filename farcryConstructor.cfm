@@ -3,7 +3,7 @@
 <cfset THIS.displayName = "madfellas" />
 
 <cfset THIS.sessionmanagement = true  />
-<cfset THIS.sessiontimeout = createTimeSpan(0,0,20,0) />
+<cfset THIS.sessiontimeout = createTimeSpan(0,2,0,0) />
 <cfset THIS.applicationtimeout = createTimeSpan(2,0,0,0) />
 <cfset THIS.clientmanagement = false />
 <cfset THIS.clientstorage = "cookie" />
