@@ -30,6 +30,18 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'Visitor';
+    src: url('fonts/visitor1-webfont.eot');
+    src: url('fonts/visitor1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/visitor1-webfont.woff') format('woff'),
+         url('fonts/visitor1-webfont.svg#visitor_tt1_brkregular') format('svg'),
+         url('fonts/visitor1-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 html, body { height: 100%; }
 
@@ -62,7 +74,7 @@ h6 { font-size: 100%; }
 }
 
 header {
-	background: #141414 url(images/header-bg-2.jpg) 0 0 no-repeat;
+	background: #141414 url(images/header-bg-2.jpg) 0 50% no-repeat;
 	background-size: 100% auto;
 }
 header .mask {
@@ -74,20 +86,23 @@ header .mask {
 header h1 {
 	text-align: center;
 	margin: 0;
-	font-weight: 100;
+	font-family: 'Visitor';
+	font-weight: 300;
 	font-size: 500%;
 	color: white;
 	text-transform: lowercase;
 	padding: 0.2em 1em 0 1em;
-	color: #66ccff;
-	text-shadow: 0 0 2px #000, 0 0 8px #000, 0 0 16px #000;
+	color: #428bca;
+	text-shadow: 0 0 16px #000;
 }
 
 header h1 small {
 	position: relative;
 	top: -0.1em;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 	font-size: 1em;
 	line-height: 1;
+	text-shadow: 0 0 2px #000, 0 0 8px #000;
 }
 header h1 small span {
 	position: absolute;
@@ -102,8 +117,10 @@ header h1 small span {
 
 
 .navbar-inverse {
+	font-family: 'Visitor';
 	border: none;
 	background: rgba(0,0,0,0.4);
+	background: none;
 	-webkit-border-radius: 0; 
 	-moz-border-radius: 0; 
 	border-radius: 0; 
@@ -114,11 +131,11 @@ header h1 small span {
 }
 .navbar-inverse .navbar-nav li a {
 	font-size: 1em;
-	color: #999;
+	color: #aaa;
 }
 .navbar-inverse .navbar-nav li a:hover {
 	color: #fff;
-	background: #333;
+	background: #232323;
 }
 
 .navbar-inverse .navbar-nav>li.active>a,

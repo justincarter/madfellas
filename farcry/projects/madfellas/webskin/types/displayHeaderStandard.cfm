@@ -22,7 +22,7 @@
 
 	<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="/css/style.css" rel="stylesheet" type="text/css">
-	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" type="text/css">
 
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -43,15 +43,11 @@
 		<nav class="navbar navbar-inverse" role="navigation">
 			<div class="container">
 				<div class="col-md-10 col-md-push-1 col-sm-12 col-xs-12">
-					<ul class="nav navbar-nav ">
-						<li><a href="/">Home</a></li>
-						<li><a href="/blog">Blog</a></li>
-						<li><a href="/about">About</a></li>
-					</ul>
+					<skin:simpleNav class="nav navbar-nav">
 				</div>
 			</div>
 		</nav>
-		<h1><small><span>Justin Carter's</span></small> Madfellas.com</h1>
+		<h1><small><span>Justin Carter's</span></small> madfellas.com</h1>
 	</div>
 </header>
 
