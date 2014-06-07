@@ -88,7 +88,7 @@ header h1 {
 	margin: 0;
 	font-family: 'Visitor';
 	font-weight: 300;
-	font-size: 500%;
+	font-size: 466%;
 	color: white;
 	text-transform: lowercase;
 	padding: 0.2em 1em 0 1em;
@@ -240,7 +240,7 @@ footer a:hover {
 		font-size: 14px;
 	}
 	header h1 {
-		font-size: 300%;
+		font-size: 285%;
 	}
 	h1 { font-size: 200%; }
 	h2 { font-size: 160%; }
