@@ -12,7 +12,7 @@
 		<div class="container">
 			<div class="col-md-10 col-md-push-1">
 				<p>Copyright &copy; 2003-#datePart("yyyy", now())# Justin Carter.</p>
-				<p>madfellas.com is powered by <a href="http://www.farcrycore.org">FarCry Core</a> and <a href="http://www.getrailo.org">Railo</a>.</p>
+				<p>madfellas.com is powered by <a href="http://www.farcrycore.org">FarCry Core</a> and <a href="http://lucee.org">Lucee</a>.</p>
 			</div>
 		</div>
 	</footer>
